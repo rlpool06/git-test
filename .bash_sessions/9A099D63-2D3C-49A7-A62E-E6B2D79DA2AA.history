@@ -1,0 +1,37 @@
+git init
+git branch --show-current
+git remote add origin https://github.com/rlpool06/git-test.git
+git push -u origin master
+git init
+git branch --show-current
+code .
+git remote add origin https://github.com/rlpool06/git-test.git
+git push -u origin master
+git push -u origin main
+git branch -M main
+echo $0
+touch ~/.bash_profile
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+nvm install 14.9.0
+nvm use 14.9.0
+node -v
+npm -v
+npm init
+npm install lite-server@2.5.4 --save-dev
+npm install bootstrap@4.5.0
+npm install jquery@3.5.1 pooper.js@1.16.1
+npm start
+git init
+git add .
+git commit -m "My First Bootstrap Project"
+npm start
+git add .
+git commit -m "Adding Custom Styles"
+npm init
+npm install lite-server@2.5.4 --save-dev
+npm start
+npm start
+git add .
+git status
+git commit -m "Using NPM"
+git push

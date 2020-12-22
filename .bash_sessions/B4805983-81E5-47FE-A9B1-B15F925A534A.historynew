@@ -1,0 +1,5 @@
+git branch --show-current
+git init
+git branch --show-current
+git branch --show-current
+git remote add origin https://github.com/rlpool06/git-test.git

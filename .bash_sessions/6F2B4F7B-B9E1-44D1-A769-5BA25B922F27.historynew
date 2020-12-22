@@ -1,0 +1,27 @@
+git init
+ls
+ls -a
+cd .git
+ls
+cd ..
+git status
+code .
+code .
+code .
+git branch --show-current
+code .
+code .
+git status
+git add .
+git status
+git commit -m "First commit"
+git status
+git add .
+git commit -m "Second commit"
+git add .
+git commit -m "Third commit"
+git log --oneline
+git checkout cd6a153
+git checkout 50ab517
+git reset HEAD index.html
+git checkout -- index.html

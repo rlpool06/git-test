@@ -1,0 +1,11 @@
+git init
+git branch --show-current
+git remote add origin https://github.com/rlpool06/git-test.git
+git push -u origin master
+git init
+git branch --show-current
+code .
+git remote add origin https://github.com/rlpool06/git-test.git
+git push -u origin master
+git push -u origin main
+git branch -M main

@@ -1,0 +1,39 @@
+git init
+git status
+git status
+code .
+git remote add origin https://github.com/rlpool06/git-test.git
+git branch -M main
+git branch -M master
+git reset HEAD index.html
+git checkout -- index.html
+git checkout "Third commit" index.html
+git add .
+git status
+git commit -m "First commit"
+git status
+git add .
+git commit -m "Second commit"
+git add .
+git commit -m "Third commit"
+git log --oneline
+git checkout 5d3b0f6 index.html
+git reset HEAD index.html
+git checkout 3eb5629 index.html
+git reset HEAD index.html
+git checkout -- index.html
+git remote add origin https://github.com/rlpool06/git-test.git
+git branch -M main
+git branch --show-current
+git remote -v
+git status
+git reset
+git status
+git branch
+git switch master
+git status
+git branch temp 3eb5629
+git branch
+git merge temp
+git log --oneline
+git push -u origin master

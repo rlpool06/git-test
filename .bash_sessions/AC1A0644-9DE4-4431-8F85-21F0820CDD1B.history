@@ -1,0 +1,18 @@
+git init
+git branch --show-current
+git remote add origin https://github.com/rlpool06/git-test.git
+git push -u origin master
+git init
+git branch --show-current
+code .
+git remote add origin https://github.com/rlpool06/git-test.git
+git push -u origin master
+git push -u origin main
+git branch -M main
+echo $0
+touch ~/.bash_profile
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+nvm install 14.9.0
+nvm use 14.9.0
+node -v
+npm -v
